@@ -3,7 +3,7 @@
 
 	const nationalities = ['Kuvait', 'Katar', 'Irak', 'Irán', 'Izrael', 'Jordán', 'Palesztin', 'Szír', 'Arab', 'Omán', 'Török', 'Jemen', 'Ukrán', 'Üzbég', 'Orosz', 'Kínai'];
 	
-	const nounsResponse = await fetch('fonevek_vegleges.txt', { 'Content-Type': 'text/plain; charset=UTF-8' });
+	const nounsResponse = await fetch('fonevek_vegleges.txt');
 	const nounsResponseBuffer = await nounsResponse.arrayBuffer();
 	const fetchedNouns = await textDecoder.decode(nounsResponseBuffer);
 	const nouns = fetchedNouns.split('\n');
