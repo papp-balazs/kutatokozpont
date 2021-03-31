@@ -8,6 +8,7 @@
 body {
 	font: 400 14px 'Roboto', sans-serif;
 	background: #fff;
+	color: #000;
 	overflow: hidden;
 }
 
@@ -22,7 +23,7 @@ header {
 	display: block;
 	width: 70px;
 	height: 70px;
-	background: url('http://www.nemzetijelkepek.hu/pictures/cimer/jpg/5colorcmykwy.jpg') no-repeat center center / contain;
+	background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/800px-Coat_of_arms_of_Hungary.svg.png') no-repeat center center / contain;
 }
 
 .title {
@@ -71,6 +72,13 @@ footer {
 	text-align: center;
 	background: rgb(250, 110, 0);
 	padding: 0 5%;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: #000;
+		color: #fff;
+	}
 }
 
 @media (max-width: 600px) {
