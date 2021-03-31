@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 400 14px 'Roboto', sans-serif;
+	background: #fff;
+	overflow: hidden;
+}
+
+header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.coat-of-arms {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url('http://www.nemzetijelkepek.hu/pictures/cimer/jpg/5colorcmykwy.jpg') no-repeat center center / contain;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 1.1rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100vw;
+	height: calc(var(--vh) * 100 - 200px);
+	padding: 0 5%;
+}
+
+#generated-research-center {
+	font-size: 48px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+#generate-button {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	background: rgb(250, 110, 0);
+	-webkit-tap-highlight-color: transparent;
+	padding: 10px 15px;
+	margin-top: 25px;
+	border-radius: 3px;
+	cursor: pointer;
+	outline: 0;
+	box-shadow: 0 2px 15px rgba(250, 110, 0, .6);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	color: #fff;
+	text-align: center;
+	background: rgb(250, 110, 0);
+	padding: 0 5%;
+}
+
+@media (max-width: 600px) {
+	.coat-of-arms {
+		width: 50px;
+		height: 50px;
+	}
+
+	.title {
+		font-size: 18px;
+	}
+
+	#generated-research-center {
+		font-size: 32px;
+	}
+
+	main {
+		height: calc(var(--vh) * 100 - 160px);
+	}
+
+	footer {
+		height: 80px;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 375px) {
+	.title {
+		font-size: 16px;
+	}
+
+	#generated-research-center {
+		font-size: 24px;
+	}
+
+	#generate-button {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 290px) {
+	#generate-button {
+		font-size: 12px;
+	}
+}
