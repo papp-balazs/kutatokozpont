@@ -1395,9 +1395,6 @@ azonosítószám
 azonosság
 azonosságtudat
 azonosulás
-b
-b
-B
 bá
 bab
 báb
@@ -2533,8 +2530,6 @@ búzatermés
 búzaválság
 búzavirág
 buzdítás
-c
-c
 cafetéria
 cafka
 cáfolat
@@ -3150,9 +3145,6 @@ culpa
 cumi
 curling
 curriculum
-d
-D
-D'
 dackorszak
 dacszövetség
 dada
@@ -3668,12 +3660,6 @@ dzsúdó
 dzsúdó-bajnok
 dzsumbuj
 dzsungel
-e
-E
-E
-E
-É
-É
 E-alap
 eb
 ebéd
@@ -5014,8 +5000,6 @@ ezüstérmese
 ezüstfenyõ
 ezüstpénz
 ezüsttál
-f
-F
 fa
 fa
 faajtó
@@ -6389,8 +6373,6 @@ fûzfal
 fûzfapoéta
 fúzió
 fûzõ
-G
-G
 gabona
 gabonaexport
 gabonasiló
@@ -7147,7 +7129,6 @@ gyümölcspiac
 gyúró
 gyûrû
 gyûrûpárna
-H
 ha
 hab
 habanyag
@@ -8871,8 +8852,6 @@ izzócsere-probléma
 izzógyártás
 izzókészlet
 izzólámpa
-j
-J
 jácint
 jaj
 jaj-jaj
@@ -9314,8 +9293,6 @@ jutalomjáték
 jutás
 jutazsák
 juttatás
-k
-K
 kabala
 kabaré
 kabát
@@ -11708,8 +11685,6 @@ kvíz-kérdéssort
 kvóta
 kvótarendszer
 kvótaszerzés
-l
-L
 láb
 lábadozás
 lábas
@@ -12442,13 +12417,9 @@ luxusszálló
 luxusszálloda
 luxustemetés
 luxusvilla
-ly
-ly-l
 lyuk
 lyukasóra
 lyuk-párost
-m
-M
 m2
 m3
 m3/év
@@ -13937,8 +13908,6 @@ muzsikálás
 muzsikaszó
 muzsikus
 muzsikuslélek
-n
-N
 nábob
 náció
 nacionalizmus
@@ -14543,7 +14512,6 @@ nyitogatás
 nyitórendezvény
 nyitottság
 nyitvatartás
-ny-l
 nylon
 nylonhuzat
 nylonzacskó
@@ -14630,10 +14598,6 @@ nyúlcomb
 nyúlrágás
 nyúlvány
 nyuszi
-Ó
-Ó
-ö
-õ
 oázis
 obeliszk
 objektív
@@ -16392,8 +16356,6 @@ pusztulás
 puttony
 puzzle
 puzzle-összerakás
-r
-R
 ráadás
 rab
 rabbi
@@ -17109,8 +17071,6 @@ rutinkarbantartás
 rutinpálya
 rutintalanság
 rúzsozás
-'s
-'s
 sablon
 sáfránysereg
 saga
@@ -20583,10 +20543,6 @@ tûzvédelem
 tûzvész
 tûzvizsgálat
 tyúk
-u
-u
-ú
-û
 uborka
 üdítõ
 üdítõitalgyártó
@@ -21029,8 +20985,6 @@ uzsora
 uzsorakamat
 uzsorás
 uzsorázás
-v
-V
 vacsora
 vad
 vád
@@ -22268,17 +22222,10 @@ win-win
 wireless
 word
 world
-X
-X
 xenon
-x-szer
-xy
-y
 yacht
 yard
 yes
-z
-Z
 zab
 zabköles
 zacskó
