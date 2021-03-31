@@ -39,7 +39,7 @@ main {
 	align-items: center;
 	text-align: center;
 	width: 100vw;
-	height: calc(var(--vh) * 100 - 200px);
+	height: calc(var(--vh, 1vh) * 100 - 200px);
 	padding: 0 5%;
 }
 
