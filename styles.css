@@ -7,8 +7,8 @@
 
 body {
 	font: 400 14px 'Roboto', sans-serif;
-	background: #fff;
-	color: #000;
+	background: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	overflow: hidden;
 }
 
@@ -76,8 +76,8 @@ footer {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background: #000;
-		color: #fff;
+		background: rgb(0, 0, 0);
+		color: rgb(255, 255, 255);
 	}
 }
 
