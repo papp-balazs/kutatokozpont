@@ -15,7 +15,7 @@
 		const nationality = nationalities[Math.floor(Math.random() * nationalities.length)];
 		const noun = nouns[Math.floor(Math.random() * nouns.length)].slice(0, -1);
 
-		generatedResearchCenterElement.innerHTML = `Magyar-${nationality} ${noun}kutató Központ`;
+		generatedResearchCenterElement.innerHTML = `${nationality}-Magyar ${noun}kutató Központ`;
 	}
 
 	const setViewportHeight = () => {
