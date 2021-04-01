@@ -1,12 +1,18 @@
 {
-	"start_url": "/",
 	"name": "Nemzeti Kutatóközpont Generátor",
 	"short_name": "Kutatóközpont Generátor",
 	"icons": [
 		{
-			"src": "./icons/icon-192x192.png",
+			"src": "./icons/maskable-icon-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./icons/maskable-icon-192x192.png",
 			"sizes": "192x192",
-			"type": "image/png"
+			"type": "image/png",
+			"purpose": "any maskable"
 		}
 	],
 	"theme_color": "#fa6e00",
