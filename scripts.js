@@ -4,7 +4,7 @@
  * akkor nyugodtan járulj hozzá az oldal fejlesztéséhez az alábbi Git repon:
  *
  * https://github.com/papp-balazs/kutatokozpont
- * */
+ */
 (async () => {
 	const textDecoder = new TextDecoder('iso-8859-2');
 
