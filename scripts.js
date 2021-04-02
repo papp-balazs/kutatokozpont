@@ -6,14 +6,14 @@
 	const nounsResponse = await fetch('fonevek_vegleges.txt');
 	const nounsResponseBuffer = await nounsResponse.arrayBuffer();
 	const fetchedNouns = await textDecoder.decode(nounsResponseBuffer);
-	const nouns = fetchedNouns.split('\n');
+	const nouns = fetchedNouns.split('\r\n');
 
 	const generatedResearchCenterElement = document.getElementById('generated-research-center');
 	const generateButton = document.getElementById('generate-button');
 
 	const generateResearchCenter = () => {
 		const nationality = nationalities[Math.floor(Math.random() * nationalities.length)];
-		const noun = nouns[Math.floor(Math.random() * nouns.length)].slice(0, -1);
+		const noun = nouns[Math.floor(Math.random() * nouns.length)];
 
 		generatedResearchCenterElement.innerHTML = `${nationality}-Magyar ${noun}kutató Központ`;
 	}
