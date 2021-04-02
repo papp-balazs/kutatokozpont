@@ -1,3 +1,10 @@
+/*
+ * Na, ha már ennyire "mélyen" kutakodsz megkérlek arra, hogy ha bármi hibát
+ * észreveszel az oldalon, vagy csak szimplán lenne hozzá egy reális ötleted,
+ * akkor nyugodtan járulj hozzá az oldal fejlesztéséhez az alábbi Git repon:
+ *
+ * https://github.com/papp-balazs/kutatokozpont
+ * */
 (async () => {
 	const textDecoder = new TextDecoder('iso-8859-2');
 
