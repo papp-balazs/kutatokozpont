@@ -1,7 +1,7 @@
 (async () => {
 	const textDecoder = new TextDecoder('iso-8859-2');
 
-	const nationalities = ['Kuvait', 'Katar', 'Irak', 'Irán', 'Izrael', 'Jordán', 'Palesztin', 'Szír', 'Arab', 'Omán', 'Török', 'Jemen', 'Ukrán', 'Üzbég', 'Orosz', 'Kínai'];
+	const nationalities = ['Kuvaiti', 'Katari', 'Iraki', 'Iráni', 'Izraeli', 'Jordán', 'Palesztin', 'Szír', 'Arab', 'Ománi', 'Török', 'Jemen', 'Ukrán', 'Üzbég', 'Orosz', 'Kínai'];
 	
 	const nounsResponse = await fetch('fonevek_vegleges.txt');
 	const nounsResponseBuffer = await nounsResponse.arrayBuffer();
