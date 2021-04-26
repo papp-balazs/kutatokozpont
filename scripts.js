@@ -21,8 +21,10 @@
 	const generateResearchCenter = () => {
 		const nationality = nationalities[Math.floor(Math.random() * nationalities.length)];
 		const noun = nouns[Math.floor(Math.random() * nouns.length)];
+		const lastWordVowelCount = noun.split(/[ -]/).pop().replace(/[^űáéúőóüöíeuioa]/gi, "").length
+		const hyphenOrNot = lastWordVowelCount > 4 ? "-" : ""
 
-		generatedResearchCenterElement.innerHTML = `${nationality}-Magyar ${noun}kutató Központ`;
+		generatedResearchCenterElement.innerHTML = `${nationality}-Magyar ${noun}${hyphenOrNot}kutató Központ`;
 	}
 
 	const setViewportHeight = () => {
